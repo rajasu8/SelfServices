@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" href="Styles/Site.css" />
+    <title>Title!!!</title> 
+    <hr /> 
+    <style type="text/css">
+        .style1
+        {
+            color: #000000;
+        }
+        .style2
+        {
+            font-size: x-large;
+        }
+    </style>
+    <br />
+    <div><img src="../Images/t15.jpg"  alt="Desert" width="30%" align="left" />
+   <div>
+    
+ </div>
+    <p align="right">
+     <span class="glyphicon glyphicon-log-out" aria-hidden="true">&nbsp; </span>
+        <a href="#" class="style2">Logout</a></p></div>
+    <%--<nav class="navbar navbar-default">--%>
+      <ul class="nav navbar-nav">
+        <li class="active" style="font-size: large"><a href="#" class="style1">
+            <strong class="style2">Order Status</strong></a></li>
+        <li><a href="#" class="style1"><strong class="style2">Bill View</strong></a></li>
+        <li><a href="BillPay.aspx" class="style1"><strong class="style2">Bill Pay</strong></a></li> 
+        <li><a href="#" class="style1"><strong class="style2">Report Repair</strong></a></li>
+       </ul>
+    
+    <br />
+    <br />
+    <br />
+    <hr />
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin-left:50px;margin-right:50px;background-color:White">
+
+    <div>
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+   
+    
+   
+</body>
+<br />
+<br />
+<br />
+<footer>footer here</footer>
+</html>
