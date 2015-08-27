@@ -83,6 +83,7 @@
     <Content Include="Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Pages\BillView.aspx" />
     <Content Include="Styles\bootstrap-theme.css.map" />
     <Content Include="Styles\bootstrap.css.map" />
     <None Include="Web.Debug.config">
@@ -185,6 +186,13 @@
     </Compile>
     <Compile Include="Pages\BillPay.aspx.designer.cs">
       <DependentUpon>BillPay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BillView.aspx.cs">
+      <DependentUpon>BillView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BillView.aspx.designer.cs">
+      <DependentUpon>BillView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\DataAccessHelper.cs" />

@@ -5,7 +5,7 @@
 
     <div style="float:left; width:68%">
     <form id="form1" runat="server" style="color: #000000">
-    <table class="style1" style="width: 600px; font-family: 'Times New Roman';"  align="left" bgcolor="White">
+    <table class="style1" style="width: 100%; font-family: 'Times New Roman';"  align="left" bgcolor="White">
     <tr>
         <td colspan="3" align="center" bgcolor="White" style="height: 20px">
             Masked Customer Name</td>
@@ -185,7 +185,7 @@
     <div style="float:right; width:32%; font-family: 'Times New Roman', Times, serif;" align="right">
       
 
-                <table style="color:#000000; background-color: #FFFFFF; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" bgcolor="White" width="325px">
+                <table style="color:#000000; background-color: #FFFFFF; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" bgcolor="White" width="100%">
             <tr>
                 <td style="border-color: #C0C0C0; background-color: #CCCCCC; font-family: Century;" >
                     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="Large" ForeColor="Black" BackColor="#CCCCCC">GET ANSWERS FAST</asp:Label> <br />
