@@ -79,7 +79,7 @@
             Balance Forward</td>
         <td align="right" bgcolor="White" style="width: 245px">
         <hr style="list-style-type: none; color: #FF0000;" />
-            <asp:Label ID="lblBalanceForward" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label></td>
+            $<asp:Label ID="lblBalanceForward" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label></td>
         <td class="style10" style="width: 245px" bgcolor="White"><br />
             &nbsp;</td>
     </tr>
@@ -121,9 +121,9 @@
     </tr>
     <tr>
         <td class="modal-sm" bgcolor="White" style="width: 253px; font-size: large; font-weight: bold;"><br />
-            Total Due </td>
+            Total Due Amount</td>
         <td align="right" bgcolor="White" style="width: 245px"><hr style="color: #FF0000; font-weight: bold" />
-            <asp:Label ID="lblTotalDue1" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label></td>
+            $<asp:Label ID="lblTotalDue1" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label></td>
         <td class="style10" style="width: 245px" bgcolor="White"><br />
             &nbsp;</td>
     </tr>
@@ -137,8 +137,8 @@
     </tr>
     <tr>
         <td bgcolor="White" colspan="3" style="font-style: italic">
-            To avoid a late payment charge of $5 or 1.5% of your total due whichever is greater, full payment must be received<br />
-            before&nbsp; <asp:Label ID="lblDueDate2" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="Large"></asp:Label> </td>
+            To avoid a late payment charge of $5 or 1.5% of your total due whichever is greater, full payment must be received before the Due Date<br />
+        </td>
     </tr>
          <tr>
         <td class="modal-sm" bgcolor="White" style="width: 253px; height: 20px;">
@@ -150,7 +150,7 @@
     </tr>
          <tr>
         <td bgcolor="White" align="center" colspan="3" style="height: 30px">
-            <asp:Button ID="Pay" runat="server" Text="PAY" BackColor="Red" BorderStyle="Outset" Height="50px" Width="150px" ForeColor="White" OnClick="Pay_Click" />
+            <asp:Button ID="Pay" runat="server" Text="PAY" BackColor="Red" BorderStyle="Outset" Height="50px" Width="150px" ForeColor="White" OnClick="Pay_Click" Visible="False" />
              </td>
     </tr>
          <tr>
@@ -192,7 +192,7 @@
                     <ul>
                         <li>
                             <asp:Label ID="Label2" runat="server" BackColor="#CCCCCC" ForeColor="Black"> Click to chat at </asp:Label>
-                            <a href="http://www.verizonwireless.com/b2c/myverizonlp/" style="color:  black">  TwentyFifteen2015.com/liveagent</a>
+                            <a href="#" style="color:  black">  TwentyFifteen2015.com/liveagent</a>
                         </li>
                         <li>
                             <asp:Label ID="Label4" runat="server" BackColor="#CCCCCC" ForeColor="Black"> Call</asp:Label><asp:Label ID="Label5" Font-Bold="True" Font-Italic="True" runat="server" BackColor=" #CCCCCC" ForeColor="Black"> 1.700.2015(1.700.247.4427)</asp:Label>
@@ -234,7 +234,7 @@
              <tr>
                 <td style="font-family: 'Times New Roman', Times, serif">
                 <asp:Label ID="Label10" runat="server" BackColor="White" ForeColor="Black"> As a valued active service member or veteran, we offer to you a 15% discount off your monthly 2015 Wireless service and 25% discount off select accessories. Registering for the discount is easy, click</asp:Label>
-                 <a href="http://www.verizonwireless.com/b2c/myverizonlp/" style="color:  black; font-size: small; font-style: italic;"> TwentyFifteen2015.com/liveagent</a>
+                 <a href="#" style="color:  black; font-size: small; font-style: italic;"> TwentyFifteen2015.com/liveagent</a>
                   <asp:Label ID="Label11" runat="server" BackColor="White" ForeColor="Black">. To verify your service, you can use your</asp:Label>
                     <asp:Label ID="Label12" runat="server" Font-Bold="True" >DD Form 214, Veteran's ID Card, Military Retiree Account Statement or VetRewards Card from Veterans Advantage</asp:Label> 
                      </td>
@@ -262,7 +262,7 @@ Play packages.</asp:Label>
                     <asp:Label ID="Label17" runat="server" Font-Bold="True"  >FiOS Triple Play</asp:Label><asp:Label ID="Label19" runat="server"> — Home Phone, Internet and FiOS TV (available in select service areas).</asp:Label>
                     <asp:Label ID="Label18" runat="server" Font-Bold="True"  >High Speed Internet (HSI) Triple Play</asp:Label>
                      <asp:Label ID="Label20" runat="server"> — Home Phone, Internet and DIRECTV.Taking advantage of these packages is easy. If you're an active service member, select  </asp:Label>
-                 <a href="http://www.verizonwireless.com/b2c/myverizonlp/" style="color:  black; font-size:small; font-style: italic;">  Active Service Member</a>
+                 <a href="#" style="color:  black; font-size:small; font-style: italic;">  Active Service Member</a>
                  <%-- <asp:Label ID="Label15" runat="server" BackColor="White" ForeColor="Black">. To verify your service, you can use your</asp:Label>
                     <asp:Label ID="Label16" runat="server" Font-Bold="True" >DD Form 214, Veteran's ID Card, Military Retiree Account Statement or VetRewards Card from Veterans Advantage</asp:Label> 
                      --%>

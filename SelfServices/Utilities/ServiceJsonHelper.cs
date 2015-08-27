@@ -71,9 +71,10 @@ namespace SelfServices.Utilities
 
         public static Bill GetBill(string customerId)
         {
-            Bill bill = null;
+           Bill bill = null;
             string url = BILL_PULL_URL + customerId;
             string billJson = GetJsonFromUrl(url);
+            //string billJson = File.ReadAllText(@"D:\bill.json");
             if (!String.IsNullOrWhiteSpace(billJson))
             {
                 bill = GetObjectFromJson<Bill>(billJson);

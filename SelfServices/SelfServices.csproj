@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Pages\BillView.aspx" />
     <Content Include="Pages\MasterPage.master" />
     <Content Include="Images\Thumbs.db" />
     <Content Include="Fonts\fontawesome-webfont.eot" />
@@ -140,6 +141,13 @@
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\ProfileJsonModel.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Pages\BillView.aspx.cs">
+      <DependentUpon>BillView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BillView.aspx.designer.cs">
+      <DependentUpon>BillView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -29,7 +29,7 @@
       <ul class="nav navbar-nav">
         <li class="active" style="font-size: large"><a href="#" class="style1">
             <strong class="style2">Order Status</strong></a></li>
-        <li><a href="#" class="style1"><strong class="style2">Bill View</strong></a></li>
+        <li><a href="BillView.aspx" class="style1"><strong class="style2">Bill View</strong></a></li>
         <li><a href="BillPay.aspx" class="style1"><strong class="style2">Bill Pay</strong></a></li> 
         <li><a href="#" class="style1"><strong class="style2">Report Repair</strong></a></li>
        </ul>
