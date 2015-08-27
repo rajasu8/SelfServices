@@ -32,16 +32,16 @@ namespace SelfServices.Pages
                 lblPreviousBalance.Text = temp.Account_Summary.Previous_Period.PreviousBalance;
                 lblPaymentReceived.Text = temp.Account_Summary.Previous_Period.PaymentReceived;
                 lblBalanceForward.Text = temp.Account_Summary.Previous_Period.BalanceForward;
-                foreach (var service in temp.Account_Summary.CurrentCharges.Services)
-                {
-                    ServicesName.Text += service.name+" ";
-                }
+                //foreach (var service in temp.Account_Summary.CurrentCharges.Services)
+                //{
+                //    ServicesName.Text += service.name+" ";
+                //}
                 lblFIOS.Text = temp.Account_Summary.CurrentCharges.subtotal;
 
-                foreach (var service in temp.Account_Summary.AdditionalCharges.AdditionalServices)
-                {
-                    AdditionalServivesName.Text  += service.name + " ";
-                }
+                //foreach (var service in temp.Account_Summary.AdditionalCharges.AdditionalServices)
+                //{
+                //    AdditionalServivesName.Text  += service.name + " ";
+                //}
                
                 lblAddService.Text = temp.Account_Summary.AdditionalCharges.subtotal;
                 lblFees.Text = temp.taxes;

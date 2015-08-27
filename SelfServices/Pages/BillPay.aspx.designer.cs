@@ -85,15 +85,6 @@ namespace SelfServices.Pages {
         protected global::System.Web.UI.WebControls.Label lblBalanceForward;
         
         /// <summary>
-        /// ServicesName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ServicesName;
-        
-        /// <summary>
         /// lblFIOS control.
         /// </summary>
         /// <remarks>
@@ -110,15 +101,6 @@ namespace SelfServices.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblCCFIOSDate;
-        
-        /// <summary>
-        /// AdditionalServivesName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AdditionalServivesName;
         
         /// <summary>
         /// lblAddService control.

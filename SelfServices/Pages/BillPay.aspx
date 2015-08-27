@@ -19,7 +19,7 @@
             Account Number : <asp:Label ID="lblAccount" runat="server" Font-Bold="True" Font-Size="Medium"></asp:Label></td>
     </tr>
         <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px">
             &nbsp;</td>
@@ -31,7 +31,7 @@
             Bill Date : <asp:Label ID="lblDate" runat="server" Font-Bold="True" Font-Overline="False" Font-Underline="False"></asp:Label></td>
     </tr>
         <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px">
             &nbsp;</td>
@@ -51,7 +51,7 @@
             Previous Period</td>
     </tr>
         <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px">
             &nbsp;</td>
@@ -59,7 +59,7 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="border-bottom-style: outset; border-top-color: #FFFFFF;">
+        <td class="modal-sm" bgcolor="White" style="border-bottom-style: outset; border-top-color: #FFFFFF; width: 253px;">
             Previous Balance</td>
         <td align="right" bgcolor="White" style="border-bottom-style: outset; border-top-color: #FFFFFF;">
             <asp:Label ID="lblPreviousBalance" runat="server"></asp:Label></td>
@@ -67,7 +67,7 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="border-color: #FFFFFF;">
+        <td class="modal-sm" bgcolor="White" style="border-color: #FFFFFF; width: 253px;">
             Payment Received-Thank You</td>
         <td align="right" bgcolor="White" style="border-color: #FFFFFF;">
           <asp:Label ID="lblPaymentReceived" runat="server"></asp:Label></td>
@@ -75,7 +75,7 @@
             <asp:Label ID="lblPaymentDate" runat="server"></asp:Label></td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px; font-size: large; font-weight: bold;"><br />
+        <td class="modal-sm" bgcolor="White" style="width: 253px; font-size: large; font-weight: bold;"><br />
             Balance Forward</td>
         <td align="right" bgcolor="White" style="width: 245px">
         <hr style="list-style-type: none; color: #FF0000;" />
@@ -88,7 +88,7 @@
             Current Charges</td>
     </tr>
         <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px">
             &nbsp;</td>
@@ -96,39 +96,39 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="border-top-color: #FFFFFF; border-bottom-style: outset;">
-            FIOS,TV,Internet&amp;PhoneBundle</td>
+        <td class="modal-sm" bgcolor="White" style="border-top-color: #FFFFFF; border-bottom-style: outset; width: 253px;">
+            Services </td>
         <td align="right" bgcolor="White" style="border-top-color: #FFFFFF; border-bottom-style: outset;">
            <asp:Label ID="lblFIOS" runat="server"></asp:Label></td>
         <td class="style10" align="center" style="border-top-color: #FFFFFF; border-bottom-style: outset;" bgcolor="White">
             <asp:Label ID="lblCCFIOSDate" runat="server"></asp:Label></td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="border-top-color: #FFFFFF; border-bottom-style: outset;">
-            Additional Services&amp;Equipment</td>
+        <td class="modal-sm" bgcolor="White" style="border-top-color: #FFFFFF; border-bottom-style: outset; width: 253px;">
+            Additional Services &amp; Equipment</td>
         <td align="right" bgcolor="White" style="border-top-color: #FFFFFF; border-bottom-style: outset;"><asp:Label ID="lblAddService" runat="server"></asp:Label>
             </td>
         <td class="style10" style="border-top-color: #FFFFFF; border-bottom-style: outset;" bgcolor="White">
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="border-color: #FFFFFF;">
-            Fees &amp; Charges</td>
+        <td class="modal-sm" bgcolor="White" style="border-color: #FFFFFF; width: 253px;">
+            Fees &amp; Other Charges</td>
         <td align="right" bgcolor="White" style="border-color: #FFFFFF;">
            <asp:Label ID="lblFees" runat="server"></asp:Label></td>
         <td class="style10" style="border-color: #FFFFFF;" bgcolor="White">
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px; font-size: large; font-weight: bold;"><br />
-            Total Due by <asp:Label ID="lblDueDate1" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label></td>
+        <td class="modal-sm" bgcolor="White" style="width: 253px; font-size: large; font-weight: bold;"><br />
+            Total Due </td>
         <td align="right" bgcolor="White" style="width: 245px"><hr style="color: #FF0000; font-weight: bold" />
             <asp:Label ID="lblTotalDue1" runat="server" Font-Bold="True" Font-Size="Large"></asp:Label></td>
         <td class="style10" style="width: 245px" bgcolor="White"><br />
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px">
             &nbsp;</td>
@@ -141,7 +141,7 @@
             before&nbsp; <asp:Label ID="lblDueDate2" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="Large"></asp:Label> </td>
     </tr>
          <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px; height: 20px;">
+        <td class="modal-sm" bgcolor="White" style="width: 253px; height: 20px;">
              </td>
         <td bgcolor="White" style="width: 245px; height: 20px;">
              </td>
@@ -160,7 +160,7 @@
              </td>
     </tr>
          <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px" align="center">
             <br />
@@ -169,7 +169,7 @@
             &nbsp;</td>
         </tr>
          <tr>
-        <td class="modal-sm" bgcolor="White" style="width: 244px">
+        <td class="modal-sm" bgcolor="White" style="width: 253px">
             &nbsp;</td>
         <td bgcolor="White" style="width: 245px" align="center">
             <br />
