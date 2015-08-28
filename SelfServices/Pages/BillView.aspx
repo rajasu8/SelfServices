@@ -204,7 +204,7 @@
         
 
      
-    <table class="style1" style="width: 734px; font-family: 'Times New Roman';" left="300px" top="760px" height="468px" align="center">
+    <table class="style1" style="width: 100%; font-family: 'Times New Roman';" left="300px" top="760px" height="468px" align="left">
     <tr>
         <td align="center" bgcolor="Red" colspan="3" style="height: 23px">
           
