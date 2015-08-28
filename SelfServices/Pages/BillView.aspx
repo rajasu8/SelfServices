@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/MasterPage.master" AutoEventWireup="true" CodeBehind="BillView.aspx.cs" Inherits="SelfServices.Pages.BillViewPage" %>
-  
+  <%@ Register Assembly="CKEditor.NET" Namespace="CKEditor.NET" TagPrefix="CKEditor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -41,9 +41,11 @@
     </tr>
         <tr>
             <asp:Label ID="Label1" runat="server" Text="Label">
-                Choose:
+                Choose Month:
             </asp:Label>
-        <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
+        <asp:DropDownList ID="DropDownList1" runat="server">
+
+        </asp:DropDownList>
             </tr>
     <tr>
         <td class="style7" colspan="3" bgcolor="White" style="color: #FFFFFF">

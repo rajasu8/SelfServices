@@ -21,12 +21,12 @@ namespace SelfServices.Pages
                 Bill temp = (Bill)Session["customerBill"];
 
                 //Bill temp = customerBill;
-                lblPhone.Text = temp.PrimaryPhone;
-                lblAccount.Text = temp.AccountNumber;
-                lblDate.Text = temp.BillDate;
+                lblPhone.Text = temp.currentBill.PrimaryPhone;
+                lblAccount.Text = temp.currentBill.AccountNumber;
+                lblDate.Text = temp.currentBill.BillDate;
                 List<string> obj = new List<string>();
 
-                foreach (var service in temp.Account_Summary.CurrentCharges.Services)
+                foreach (var service in temp.currentBill.Account_Summary.Current_Charges.Services)
                 {
                     obj.Add(service.name);
                 }
@@ -34,15 +34,15 @@ namespace SelfServices.Pages
                 GridViewService.DataBind();
 
                 obj = new List<string>();
-                foreach (var service in temp.Account_Summary.CurrentCharges.Services)
+                foreach (var service in temp.currentBill.Account_Summary.Current_Charges.Services)
                 {
-                    obj.Add(service.price);
+                    obj.Add(service.price.ToString());
                 }
                 GridViewServiceAmount.DataSource = obj;
                 GridViewServiceAmount.DataBind();
 
                 obj = new List<string>();
-                foreach (var service in temp.Account_Summary.AdditionalCharges.AdditionalServices)
+                foreach (var service in temp.currentBill.Account_Summary.Additional_Charges.Additional_Services)
                 {
                     obj.Add(service.name);
                 }
@@ -51,21 +51,21 @@ namespace SelfServices.Pages
 
                 obj = new List<string>();
 
-                foreach (var service in temp.Account_Summary.AdditionalCharges.AdditionalServices)
+                foreach (var service in temp.currentBill.Account_Summary.Additional_Charges.Additional_Services)
                 {
-                    obj.Add(service.price);
+                    obj.Add(service.price.ToString());
                 }
                 GridViewAddServiceAmount.DataSource = obj;
                 GridViewAddServiceAmount.DataBind();
 
 
 
-                lblSubTotal1.Text = temp.Account_Summary.CurrentCharges.subtotal;
-                lblSubTotal2.Text = temp.Account_Summary.AdditionalCharges.subtotal;
+                lblSubTotal1.Text = temp.currentBill.Account_Summary.Current_Charges.Subtotal.ToString();
+                lblSubTotal2.Text = temp.currentBill.Account_Summary.Additional_Charges.Subtotal;
 
-                lblFederalTax.Text = temp.taxes;
+                lblFederalTax.Text = temp.currentBill.Taxes;
 
-                lblTotalDue.Text = temp.totalAmount;
+                lblTotalDue.Text = temp.currentBill.Total_Amount;
             }
         }
     }
